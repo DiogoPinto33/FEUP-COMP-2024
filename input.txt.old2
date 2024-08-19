@@ -1,0 +1,59 @@
+class Main {
+    public static void main(String[] args) {
+        int a;
+        int b;
+        int c;
+        a = 10;
+        b = 5;
+        c = a * b + 5 / 2;
+
+        if (b > 10) {
+            c = 5;
+            a = 1;
+        }else{
+            this.a = 5;
+        }
+
+        while ( c < 50 ) {
+            c = c + 1;
+            a = b + 1;
+        }
+
+    }
+}
+
+
+
+import ioPlus;
+import BoardBase;
+import java.io.File;
+
+class HelloWorld extends BoardBase {
+    public static void main(String[] args) {
+        ioPlus.printHelloWorld();
+    }
+}
+
+
+class HelloWorld extends BoardBase {
+    public static void main(String[] args, int fds, boolean moura) {
+        boolean[] a;
+        int b;
+        boolean c;
+        ioPlus.printHelloWorld(asdasd, asdasd, 5);
+    }
+
+    public int getInt(){
+        boolean d;
+        int a;
+        a = 5;
+        return a;
+    }
+
+    public boolean[] getBool(){
+    boolean d;
+    int a;
+    a = 5;
+    return [true, false];
+    }
+}
